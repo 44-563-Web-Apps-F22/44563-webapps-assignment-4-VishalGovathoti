@@ -1,7 +1,7 @@
 .Speech{
     color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
+    font-family: monospace;
+    font-size: 15px;
 }
 .song{
     color: black;
@@ -10,8 +10,9 @@
 }
 .name{
     color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 10px;
+    font-family: monospace;
+    font-size: 20px;
+    display: inline;
 }
 .direction{
     color: black;
@@ -22,7 +23,20 @@
     color:blue;
     background-color: azure;
 }
+.name:hover{
+    color:rgb(255, 234, 0);
+    background-color: azure;
+    text-shadow: 4px 4px 4px rgb(184, 8, 43);
+    border: 1px solid black;
+
+}
 .CHO{
+
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.NICE{
+
     color: blue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -35,3 +49,33 @@
     color: orange;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.THES{
+    color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.MER{
+    color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ .singers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .singers td, .singers th {
+    border: 1px solid rgb(255, 0, 0);
+    padding: 8px;
+  }
+  
+  .singers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .singers tr:hover {background-color: rgb(228, 183, 183);}
+  
+  .singers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:rgb(0, 255, 13);
+    color: rgb(0, 0, 0);
+  }
